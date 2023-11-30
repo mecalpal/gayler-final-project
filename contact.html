@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grandeur Pines Lodge | Contact</title>
+        <meta name="author" content="Callie Gayler">
+        <meta name="description" content="For any questions or reservations, contact Grandeur Pines Lodge today!">
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="navbar">
+                <h1><a href="index.html" aria-label="Go to the homepage">Grandeur Pines Lodge</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accomodations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="images/swiss-valley.jpg" alt="A vast, green landscape showcasing a lush valley sandwiched between gigantic, snowy mountains." width="1440" height="560">
+        </header>
+
+        <main id="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a <span class="required">*</span>.</p>
+            <img src="images/swiss-peak.jpg" alt="A picturesque view of a rugged mountain looking down upon a rapid stream in the middle of an evergreen forrest." width="350" height="455">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                
+                <label for="full-name">Full Name <span class="required">*</span></label>
+                <input type="text" name="full-name" id="full-name" required>
+
+                <label for="my-email">Email Address <span class="required">*</span></label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number <span class="required">*</span></label>
+                <input type="tel" name="my-phone" id="my-phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method <span class="required">*</span></legend>
+
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+
+                    <label for="pref-phone">Phone</label>
+                    <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                </fieldset>
+
+                <label for="my-comments">Comments <span class="required">*</span></label>
+                <textarea name="my-comments" id="my-comments" required></textarea>
+
+                <input type="submit" name="mySubmit" id="mySubmit" value="Submit Form">
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Grandeur Pines Lodge</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
